@@ -44,6 +44,7 @@ dependencies {
     compile "org.apereo.cas:cas-server-support-json-service-registry:${casServerVersion}"
     compile "org.apereo.cas:cas-server-support-token-webflow:${casServerVersion}"
     compile "org.apereo.cas:cas-server-support-jdbc-drivers:${casServerVersion}"
+    compile "org.springframework.security:spring-security-core:${casServerVersion}"
     // Other CAS dependencies/modules may be listed here...
 }
 
